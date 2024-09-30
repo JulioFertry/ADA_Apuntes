@@ -52,10 +52,10 @@ fun main() {
 
             // Una vez tenemos el elemento que qeremos, podemios acceder a su contenido
             val textoContentNombre = elementoNombre.item(0).textContent
-            val textoContentprecio = elementoPrecio.item(0).textContent.toDouble()
+            val textoContentPrecio = elementoPrecio.item(0).textContent.toDouble()
 
             // Imprimir
-            println("Item: ${i + 1} - Producto: $textoContentNombre - Precio: $textoContentprecio")
+            println("Item: ${i + 1} - Producto: $textoContentNombre - Precio: $textoContentPrecio")
         }
     }
 
