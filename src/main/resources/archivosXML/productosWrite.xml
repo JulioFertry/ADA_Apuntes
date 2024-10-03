@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <productos>
-    <productos>
+    <producto>
         <nombre>Agua</nombre>
-        <precio>1.50</precio>
-    </productos>
+        <precio>1.19</precio>
+    </producto>
+    <producto>
+        <nombre>Galletas</nombre>
+        <precio>2.35</precio>
+    </producto>
 </productos>
