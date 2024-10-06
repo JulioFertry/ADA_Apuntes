@@ -2,11 +2,11 @@
 <productos>
     <producto>
         <nombre>Cereales</nombre>
-        <precio>4.1745</precio>
+        <precio>4.17</precio>
     </producto>
     <producto>
         <nombre>Colacao</nombre>
-        <precio>1.7545002</precio>
+        <precio>1.75</precio>
     </producto>
     <producto>
         <nombre>Agua mineral</nombre>
