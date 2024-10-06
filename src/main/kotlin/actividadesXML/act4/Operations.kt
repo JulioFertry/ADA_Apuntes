@@ -1,5 +1,7 @@
 package actividadesXML.act4
 
+import java.math.RoundingMode
+
 
 class Operations {
 
@@ -14,11 +16,22 @@ class Operations {
     }
 
 
+    private fun round(number: Float, decimals: Int): Float {
+        val amountOfDecimals = if (decimals <= 0) {
+            1
+        } else {
+            decimals
+        }
+
+        return number.toBigDecimal().setScale(amountOfDecimals, RoundingMode.HALF_UP).toFloat()
+    }
+
+
     fun calculateProductsWithVAT(products: List<Product>): List<Product> {
         val productsWithVAT = mutableListOf<Product>()
 
         for (product in products) {
-            val priceWithVAT = calculateVAT(product.price)
+            val priceWithVAT = round(calculateVAT(product.price), 2)
             val newProduct = Product(product.name, priceWithVAT)
             productsWithVAT.add(newProduct)
         }

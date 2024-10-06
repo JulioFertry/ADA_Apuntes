@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<productos>
+    <producto>
+        <nombre>Cereales</nombre>
+        <precio>4.1745</precio>
+    </producto>
+    <producto>
+        <nombre>Colacao</nombre>
+        <precio>1.7545002</precio>
+    </producto>
+    <producto>
+        <nombre>Agua mineral</nombre>
+        <precio>1.21</precio>
+    </producto>
+</productos>
