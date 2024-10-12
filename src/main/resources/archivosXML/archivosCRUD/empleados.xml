@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><empleados>
+    <empleado id="1">
+        <apellido>Perez</apellido>
+        <departamento>HR</departamento>
+        <salario>1900.0</salario>
+    </empleado>
+    <empleado id="16">
+        <apellido>Linares</apellido>
+        <departamento>IT</departamento>
+        <salario>5000.0</salario>
+    </empleado>
+</empleados>
